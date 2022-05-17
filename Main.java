@@ -11,13 +11,14 @@ class Main {
       String nazwisko;
       int wiek;
       String born;
-      System.out.println("Witaj!");
+ 
       while(x!=0)
         {
           System.out.println("Wybierz funkcję: \n"+
-                        "1 - dodanie nowego studenta \n"+
-                        "2 - wyszukanie danego studenta \n"+
-                        "3 - wyjście z programu");
+                        "1-Dodawanie studenta \n"+
+                        "2-Lista studentów \n"+
+                        "3-Wyjście");
+          System.out.println("");
           x=skan.nextInt();
           switch(x)
             {
